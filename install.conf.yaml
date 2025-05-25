@@ -1,7 +1,21 @@
-- clean: ['~']
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ['~', '~/.config']
 
 - link:
-    ~/.gitconfig: gitconfig
-    ~/.zshenv: zshenv
+    ~/.gitconfig:
+    ~/.zshenv:
+    ~/.config/zsh/.zshrc: zsh/.zshrc
+    ~/.config/zsh/zsh.conf.d: zsh/zsh.conf.d
+    ~/.config/zsh/plugins: zsh/plugins
+    ~/.config/zsh/.p10k.zsh: zsh/.p10k.zsh
+    ~/.config/nvim: nvim
+    ~/.config/doom: doom
+    ~/.config/ghostty: ghostty
+    ~/.gnupg/gpg.conf: gnupg/gpg.conf
+    ~/.gnupg/scdaemon.conf: gnupg/scdaemon.conf
 
 
