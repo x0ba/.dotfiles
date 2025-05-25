@@ -18,4 +18,10 @@
     ~/.gnupg/gpg.conf: gnupg/gpg.conf
     ~/.gnupg/scdaemon.conf: gnupg/scdaemon.conf
 
-
+- shell:
+  - git submodule sync --recursive
+  # the following have to run after linking ~/.gitconfig
+  - git submodule update
+  - >
+    git clean -f
+    zsh/plugins
