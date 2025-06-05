@@ -1,9 +1,6 @@
 [user]
 	email = 64868985+x0ba@users.noreply.github.com
 	name = Daniel Xu
-[credential "https://github.com"]
-	helper = 
-	helper = !gh auth git-credential
 [init]
 	defaultBranch = main
 [filter "lfs"]
@@ -11,3 +8,6 @@
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
+[credential]
+	helper = osxkeychain
+	helper = oauth
