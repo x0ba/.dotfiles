@@ -11,12 +11,12 @@
 [submodule "zsh/plugins/agkozak-zsh-prompt"]
 	path = zsh/plugins/agkozak-zsh-prompt
 	url = https://github.com/agkozak/agkozak-zsh-prompt
-[submodule "zsh/plugins/powerlevel10k"]
-	path = zsh/plugins/powerlevel10k
-	url = https://github.com/romkatv/powerlevel10k.git
 [submodule "tmux/plugins/tpm"]
 	path = tmux/plugins/tpm
 	url = https://github.com/tmux-plugins/tpm
 [submodule "zsh/plugins/zsh-autosuggestions"]
 	path = zsh/plugins/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions
+[submodule "zsh/plugins/fzf-tab"]
+	path = zsh/plugins/fzf-tab
+	url = https://github.com/Aloxaf/fzf-tab

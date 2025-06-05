@@ -9,16 +9,21 @@
     ~/.gitconfig:
     ~/.zshenv:
     ~/.tmux.conf:
+    ~/.config/starship.toml: starship.toml
     ~/.tmux/plugins/tpm: tmux/plugins/tpm
     ~/.config/zsh/.zshrc: zsh/.zshrc
     ~/.config/zsh/zsh.conf.d: zsh/zsh.conf.d
     ~/.config/zsh/plugins: zsh/plugins
     ~/.config/zsh/.p10k.zsh: zsh/.p10k.zsh
     ~/.config/nvim: nvim
+    ~/.config/helix: helix
     ~/.config/doom: doom
     ~/.config/ghostty: ghostty
     ~/.gnupg/gpg.conf: gnupg/gpg.conf
     ~/.gnupg/scdaemon.conf: gnupg/scdaemon.conf
+
+- create:
+    - ~/.hushlogin
 
 - shell:
   - git submodule sync --recursive
