@@ -1,4 +1,4 @@
-font-family = Operator Mono
+font-family = Berkeley Mono
 window-padding-x = 3
 window-padding-y = 3
 keybind = shift+enter=text:\x1b\r

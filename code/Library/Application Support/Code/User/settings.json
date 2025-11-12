@@ -1,6 +1,6 @@
 {
   "workbench.colorTheme": "One Dark Pro",
-  "editor.fontFamily": "Operator Mono, Symbols Nerd Font, monospace",
+  "editor.fontFamily": "Berkeley Mono, Symbols Nerd Font, monospace",
   "workbench.iconTheme": "material-icon-theme",
   "redhat.telemetry.enabled": false,
   "editor.rulers": [80, 120],
