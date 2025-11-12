@@ -19,6 +19,9 @@
     neovim
     pyenv
     ripgrep
+    nodemon
+    claude-code
+    gettext
     stow
     nodePackages_latest.vercel
     yazi
