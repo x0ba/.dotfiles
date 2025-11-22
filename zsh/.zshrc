@@ -125,3 +125,6 @@ eval "$(direnv hook zsh)"
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
+
+# Added by Antigravity
+export PATH="/Users/daniel/.antigravity/antigravity/bin:$PATH"

@@ -20,6 +20,8 @@
     pyenv
     ripgrep
     nodemon
+    pnpm
+    gh
     claude-code
     gettext
     stow

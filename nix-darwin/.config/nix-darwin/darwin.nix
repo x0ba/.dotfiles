@@ -1,6 +1,9 @@
 { pkgs, self, ... }:
 
 {
+  imports = [
+    ./homebrew.nix
+  ];
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
   environment.systemPackages = with pkgs; [
@@ -36,8 +39,9 @@
       Clicking = true;
       TrackpadThreeFingerDrag = true;
     };
-    dock.autohide = false;
+    dock.autohide = true;
     dock.orientation = "bottom";
+    dock.tilesize = 64;
     dock.mru-spaces = false;
     finder.AppleShowAllExtensions = true;
     finder.FXPreferredViewStyle = "clmv";
@@ -68,54 +72,4 @@
 
   # let determinate manage nix
   nix.enable = false;
-
-  # Homebrew needs to be installed on its own!
-  homebrew = {
-    onActivation.cleanup = "zap";
-    enable = true;
-    casks = [
-      "bitwarden"
-      "google-chrome"
-      "keka"
-      "ollama-app"
-      "slack"
-      "zed"
-      "affinity"
-      "chatgpt-atlas"
-      "iina"
-      "logi-options+"
-      "orbstack"
-      "steam"
-      "zoom"
-      "anki"
-      "claude"
-      "imageoptim"
-      "lunar-client"
-      "prismlauncher"
-      "sublime-text"
-      "betterdisplay"
-      "arc"
-      "discord"
-      "istat-menus"
-      "notion"
-      "prusaslicer"
-      "visual-studio-code"
-      "arduino-ide"
-      "figma"
-      "jetbrains-toolbox"
-      "notion-calendar"
-      "rectangle"
-      "vivaldi"
-      "balenaetcher"
-      "ghostty"
-      "jordanbaird-ice@beta"
-      "obsidian"
-      "rocket"
-      "yubico-authenticator"
-    ];
-    brews = [ ];
-    taps = [
-
-    ];
-  };
 }
