@@ -12,23 +12,28 @@
   home.packages = with pkgs; [
     eza
     fd
+    tmux
     fzf
     git
     git-lfs
+    tealdeer
     maven
     neovim
     pyenv
     ripgrep
-    nodemon
-    pnpm
     gh
+    fnm
+    lazygit
+    zoxide
     claude-code
     gettext
     stow
-    nodePackages_latest.vercel
     yazi
     zellij
     direnv
+
+    # fonts
+    geist-font
   ];
 
   home.sessionVariables = {

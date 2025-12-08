@@ -41,6 +41,7 @@
     };
     dock.autohide = true;
     dock.orientation = "bottom";
+    dock.show-recents = false;
     dock.tilesize = 64;
     dock.mru-spaces = false;
     finder.AppleShowAllExtensions = true;

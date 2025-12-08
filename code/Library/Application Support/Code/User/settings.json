@@ -1,14 +1,10 @@
 {
-  "workbench.colorTheme": "One Dark Pro",
-  "editor.fontFamily": "Berkeley Mono, Symbols Nerd Font, monospace",
+  "workbench.colorTheme": "poimandres",
+  "editor.fontFamily": "Geist Mono, Symbols Nerd Font, monospace",
   "workbench.iconTheme": "material-icon-theme",
-  "redhat.telemetry.enabled": false,
   "editor.rulers": [80, 120],
   "github.copilot.nextEditSuggestions.enabled": true,
   "editor.minimap.enabled": false,
-  "[java]": {
-    "editor.defaultFormatter": "redhat.java"
-  },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -29,16 +25,9 @@
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "gitlens.ai.model": "vscode",
-  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "idf.hasWalkthroughBeenShown": true,
-  "idf.espIdfPath": "/Users/daniel/esp/v5.5.1/esp-idf",
-  "idf.toolsPath": "/Users/daniel/.espressif",
-  "idf.gitPath": "git",
-  "idf.pythonInstallPath": "/usr/bin/python3",
   "workbench.secondarySideBar.defaultVisibility": "hidden",
   "editor.accessibilitySupport": "off",
   "files.associations": {
@@ -74,5 +63,8 @@
         }
       }
     ]
-  }
+  },
+  "claudeCode.preferredLocation": "sidebar",
+  "redhat.telemetry.enabled": false,
+  "workbench.colorCustomizations": {}
 }
